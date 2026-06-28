@@ -27,7 +27,7 @@ async function handleSubmit() {
 
 <template>
   <main>
-    <h1>Login</h1>
+    <h1>Login 1</h1>
 
     <form @submit.prevent="handleSubmit">
       <input v-model="form.email" type="email" placeholder="E-mail" required />
